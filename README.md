@@ -96,6 +96,11 @@ export PATH=$PATH:$(go env GOPATH)/bin
 
 You can then run:
 
+ 1. first initialze the project
+```bash
+gores init
+```
+ 2. then generate a microservice 
 ```bash
 gores generate myservice
 ```
